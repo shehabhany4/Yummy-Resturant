@@ -9,7 +9,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html, body{
+  overflow-x: hidden;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -526,8 +528,8 @@ section {
   }
 
   .hero-dish {
-    max-width: 25em;
-    max-height: 25em;
+    max-width: 20em;
+    max-height: 20em;
     border-radius: 50%;
     filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.18));
   }
